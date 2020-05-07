@@ -30,12 +30,12 @@
     }
   },
   "scripts": {
-    "dist": "rc-tools run dist --babel-runtime",
+    "dist": "rc-tools run dist",
     "build": "rc-tools run build",
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
     "pub": "rc-tools run pub --babel-runtime",
-    "compile": "rc-tools run compile --babel-runtime",
+    "compile": "rc-tools run compile",
     "lint": "rc-tools run lint"
   },
   "devDependencies": {
@@ -48,9 +48,6 @@
   "pre-commit": [
     "lint"
   ],
-  "dependencies": {
-    "babel-runtime": "6.x"
-  },
   "publishConfig": {
     "access": "public"
   }

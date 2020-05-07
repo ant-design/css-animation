@@ -43,10 +43,10 @@ const style = `
 setTimeout(() => {
   const t = document.getElementById('t');
   Events.addStartEventListener(t, () => {
-    console.log('transition start...');
+    console.log('transition start...'); // eslint-disable-line
   });
   Events.addEndEventListener(t, () => {
-    console.log('transition end...');
+    console.log('transition end...'); // eslint-disable-line
   });
 }, 100);
 

@@ -1,6 +1,10 @@
 # History
 ----
 
+## 1.7.0 / 2020-05-07
+
+- fix wrong publish package
+
 ## 1.6.0 / 2020-05-07
 
 - remove component-classes

@@ -1,5 +1,4 @@
 import Event from './Event';
-import classes from 'component-classes';
 
 const isCssAnimationSupported = Event.endEvents.length !== 0;
 const capitalPrefixes = ['Webkit',
@@ -53,7 +52,6 @@ const cssAnimation = (node, transitionName, endCallback) => {
   let end = endCallback;
   let start;
   let active;
-  const nodeClasses = classes(node);
 
   if (endCallback && Object.prototype.toString.call(endCallback) === '[object Object]') {
     end = endCallback.end;
@@ -77,8 +75,8 @@ const cssAnimation = (node, transitionName, endCallback) => {
 
     clearBrowserBugTimeout(node);
 
-    nodeClasses.remove(className);
-    nodeClasses.remove(activeClassName);
+    node.classList.remove(className);
+    node.classList.remove(activeClassName);
 
     Event.removeEndEventListener(node, node.rcEndListener);
     node.rcEndListener = null;
@@ -95,11 +93,11 @@ const cssAnimation = (node, transitionName, endCallback) => {
   if (start) {
     start();
   }
-  nodeClasses.add(className);
+  node.classList.add(className);
 
   node.rcAnimTimeout = setTimeout(() => {
     node.rcAnimTimeout = null;
-    nodeClasses.add(activeClassName);
+    node.classList.add(activeClassName);
     if (active) {
       setTimeout(active, 0);
     }

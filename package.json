@@ -1,18 +1,18 @@
 {
-  "name": "css-animation",
-  "version": "1.5.0",
+  "name": "@ant-design/css-animation",
+  "version": "1.6.0",
   "description": "css-animation",
   "keywords": [
     "css-animation"
   ],
-  "homepage": "http://github.com/yiminghe/css-animation",
+  "homepage": "http://github.com/ant-design/css-animation",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yiminghe/css-animation.git"
+    "url": "git@github.com:ant-design/css-animation.git"
   },
   "bugs": {
-    "url": "http://github.com/yiminghe/css-animation/issues"
+    "url": "http://github.com/ant-design/css-animation/issues"
   },
   "license": "MIT",
   "main": "./lib/index",
@@ -50,5 +50,8 @@
   ],
   "dependencies": {
     "babel-runtime": "6.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

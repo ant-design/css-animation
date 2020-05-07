@@ -1,6 +1,10 @@
 # History
 ----
 
+## 1.6.0 / 2020-05-07
+
+- remove component-classes
+
 ## 1.5.0 / 2018-11-12
 
 - support startEventListenter

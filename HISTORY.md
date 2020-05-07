@@ -1,6 +1,10 @@
 # History
 ----
 
+## 1.7.2 / 2020-05-07
+
+- remove babel-runtime
+
 ## 1.7.0 / 2020-05-07
 
 - fix wrong publish package

@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/css-animation",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "css-animation",
   "keywords": [
     "css-animation"
@@ -34,7 +34,7 @@
     "build": "rc-tools run build",
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
-    "pub": "rc-tools run pub --babel-runtime",
+    "pub": "rc-tools run pub",
     "compile": "rc-tools run compile",
     "lint": "rc-tools run lint"
   },

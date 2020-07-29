@@ -99,11 +99,10 @@ const cssAnimation = (node, transitionName, endCallback) => {
     node.rcAnimTimeout = null;
     node.classList.add(activeClassName);
     if (active) {
-      setTimeout(active, 0);
+      active();
     }
     fixBrowserByTimeout(node);
-    // 30ms for firefox
-  }, 30);
+  }, 0);
 
   return {
     stop() {

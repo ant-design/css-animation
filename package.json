@@ -48,7 +48,7 @@
     "@pika/plugin-build-node": "0.6.x",
     "@pika/plugin-build-types": "0.6.x",
     "@pika/plugin-standard-pkg": "0.6.x",
-    "@pika/types": "0.6.x",
+    "@pika/types": "0.9.x",
     "@storybook/react": "^5.1.9",
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.6",

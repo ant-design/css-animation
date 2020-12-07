@@ -45,7 +45,7 @@
     "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "@pika/plugin-build-node": "0.6.x",
+    "@pika/plugin-build-node": "0.9.x",
     "@pika/plugin-build-types": "0.6.x",
     "@pika/plugin-standard-pkg": "0.6.x",
     "@pika/types": "0.6.x",
